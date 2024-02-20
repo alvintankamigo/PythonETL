@@ -1,0 +1,28 @@
+2024-02-19 16:23:37,948 - [INFO] - mysql_util.py[39]:  構建完成到localhost:3306的retail數據庫連接...
+2024-02-19 16:23:37,952 - [INFO] - mysql_util.py[39]:  構建完成到localhost:3306的metadata數據庫連接...
+2024-02-19 16:23:37,991 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有6條數據，執行的sql語句是show tables;
+2024-02-19 16:23:37,991 - [INFO] - mysql_util.py[72]:  切換到metadata數據庫
+2024-02-19 16:23:37,993 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有6條數據，執行的sql語句是show tables;
+2024-02-19 16:23:37,993 - [INFO] - mysql_util.py[146]:  file_monitor已經存在
+2024-02-19 16:23:37,994 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有3條數據，執行的sql語句是select file_name from file_monitor
+2024-02-19 16:25:18,425 - [INFO] - mysql_util.py[39]:  構建完成到localhost:3306的retail數據庫連接...
+2024-02-19 16:25:18,430 - [INFO] - mysql_util.py[39]:  構建完成到localhost:3306的metadata數據庫連接...
+2024-02-19 16:25:18,444 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有6條數據，執行的sql語句是show tables;
+2024-02-19 16:25:18,444 - [INFO] - mysql_util.py[72]:  切換到metadata數據庫
+2024-02-19 16:25:18,447 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有6條數據，執行的sql語句是show tables;
+2024-02-19 16:25:18,447 - [INFO] - mysql_util.py[146]:  file_monitor已經存在
+2024-02-19 16:25:18,447 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有3條數據，執行的sql語句是select file_name from file_monitor
+2024-02-19 16:25:37,599 - [INFO] - mysql_util.py[39]:  構建完成到localhost:3306的retail數據庫連接...
+2024-02-19 16:25:37,602 - [INFO] - mysql_util.py[39]:  構建完成到localhost:3306的metadata數據庫連接...
+2024-02-19 16:25:37,612 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有6條數據，執行的sql語句是show tables;
+2024-02-19 16:25:37,612 - [INFO] - mysql_util.py[72]:  切換到metadata數據庫
+2024-02-19 16:25:37,615 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有6條數據，執行的sql語句是show tables;
+2024-02-19 16:25:37,615 - [INFO] - mysql_util.py[146]:  file_monitor已經存在
+2024-02-19 16:25:37,616 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有3條數據，執行的sql語句是select file_name from file_monitor
+2024-02-19 16:26:20,923 - [INFO] - mysql_util.py[39]:  構建完成到localhost:3306的retail數據庫連接...
+2024-02-19 16:26:20,927 - [INFO] - mysql_util.py[39]:  構建完成到localhost:3306的metadata數據庫連接...
+2024-02-19 16:26:20,937 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有6條數據，執行的sql語句是show tables;
+2024-02-19 16:26:20,937 - [INFO] - mysql_util.py[72]:  切換到metadata數據庫
+2024-02-19 16:26:20,944 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有6條數據，執行的sql語句是show tables;
+2024-02-19 16:26:20,944 - [INFO] - mysql_util.py[146]:  file_monitor已經存在
+2024-02-19 16:26:20,945 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有3條數據，執行的sql語句是select file_name from file_monitor

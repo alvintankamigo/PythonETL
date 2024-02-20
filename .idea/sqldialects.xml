@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/backend_log_service.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/json_service.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/models/barcode_model.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/models/log_model.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/models/orders_model.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/mysql_service.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/test/test_mysql_util.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/util/mysql_util.py" dialect="GenericSQL" />
+  </component>
+</project>

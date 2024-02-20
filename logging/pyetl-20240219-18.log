@@ -1,0 +1,75 @@
+2024-02-19 18:04:31,507 - [INFO] - mysql_util.py[39]:  構建完成到localhost:3306的retail數據庫連接...
+2024-02-19 18:04:31,510 - [INFO] - mysql_util.py[39]:  構建完成到localhost:3306的metadata數據庫連接...
+2024-02-19 18:04:31,533 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有3條數據，執行的sql語句是show tables;
+2024-02-19 18:04:31,536 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有4條數據，執行的sql語句是show tables;
+2024-02-19 18:04:31,537 - [INFO] - mysql_util.py[72]:  切換到metadata數據庫
+2024-02-19 18:04:31,537 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有3條數據，執行的sql語句是show tables;
+2024-02-19 18:04:31,537 - [INFO] - mysql_util.py[146]:  file_monitor已經存在
+2024-02-19 18:04:31,538 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有3條數據，執行的sql語句是select file_name from file_monitor
+2024-02-19 18:04:31,551 - [INFO] - backend_log_service.py[67]:  完成了向retail資料庫中的backend_log表中，插入數據，總共插入了0條的數據
+2024-02-19 18:04:31,646 - [INFO] - backend_log_service.py[67]:  完成了向retail資料庫中的backend_log表中，插入數據，總共插入了1000條的數據
+2024-02-19 18:04:31,648 - [INFO] - backend_log_service.py[70]:  插入資料庫程序已完成
+2024-02-19 18:04:31,652 - [INFO] - backend_log_service.py[67]:  完成了向retail資料庫中的backend_log表中，插入數據，總共插入了0條的數據
+2024-02-19 18:04:31,739 - [INFO] - backend_log_service.py[67]:  完成了向retail資料庫中的backend_log表中，插入數據，總共插入了1000條的數據
+2024-02-19 18:04:31,742 - [INFO] - backend_log_service.py[70]:  插入資料庫程序已完成
+2024-02-19 18:04:31,759 - [INFO] - backend_log_service.py[67]:  完成了向retail資料庫中的backend_log表中，插入數據，總共插入了0條的數據
+2024-02-19 18:04:31,838 - [INFO] - backend_log_service.py[67]:  完成了向retail資料庫中的backend_log表中，插入數據，總共插入了1000條的數據
+2024-02-19 18:04:31,841 - [INFO] - backend_log_service.py[70]:  插入資料庫程序已完成
+2024-02-19 18:04:31,846 - [INFO] - backend_log_service.py[67]:  完成了向retail資料庫中的backend_log表中，插入數據，總共插入了0條的數據
+2024-02-19 18:04:31,921 - [INFO] - backend_log_service.py[67]:  完成了向retail資料庫中的backend_log表中，插入數據，總共插入了1000條的數據
+2024-02-19 18:04:31,923 - [INFO] - backend_log_service.py[70]:  插入資料庫程序已完成
+2024-02-19 18:04:31,929 - [INFO] - backend_log_service.py[67]:  完成了向retail資料庫中的backend_log表中，插入數據，總共插入了0條的數據
+2024-02-19 18:04:32,015 - [INFO] - backend_log_service.py[67]:  完成了向retail資料庫中的backend_log表中，插入數據，總共插入了1000條的數據
+2024-02-19 18:04:32,017 - [INFO] - backend_log_service.py[70]:  插入資料庫程序已完成
+2024-02-19 18:11:16,305 - [INFO] - mysql_util.py[39]:  構建完成到localhost:3306的retail數據庫連接...
+2024-02-19 18:11:16,308 - [INFO] - mysql_util.py[39]:  構建完成到localhost:3306的metadata數據庫連接...
+2024-02-19 18:11:16,315 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有2條數據，執行的sql語句是show tables;
+2024-02-19 18:11:16,315 - [INFO] - mysql_util.py[72]:  切換到metadata數據庫
+2024-02-19 18:11:16,338 - [INFO] - mysql_util.py[125]:  在metadata:中創建好了logfile_monitor，建表語句是：create table logfile_monitor(
+    id int primary key auto_increment,
+    file_name varchar(255) unique not null comment '被處理的文件名稱',
+    process_line int comment '本文件中有多少條數據被處理',
+    process_time timestamp default current_timestamp comment '處理時間'
+);
+2024-02-19 18:11:16,341 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有3條數據，執行的sql語句是show tables;
+2024-02-19 18:11:16,342 - [INFO] - mysql_util.py[72]:  切換到retail數據庫
+2024-02-19 18:11:16,348 - [INFO] - mysql_util.py[125]:  在retail:中創建好了backend_log，建表語句是：create table backend_log(id int PRIMARY KEY AUTO_INCREMENT COMMENT '自增ID', log_time TIMESTAMP(6) COMMENT '日誌时间,精確到6位毫秒值', log_level VARCHAR(10) COMMENT '日誌级别', log_module VARCHAR(50) COMMENT '輸出日誌的功能模塊名', response_time INT COMMENT '接口響應時間毫秒', province VARCHAR(30) COMMENT '訪問者省份', city VARCHAR(30) COMMENT '訪問者城市', log_text VARCHAR(255) COMMENT '日誌正文', INDEX(log_time));
+2024-02-19 18:11:16,348 - [INFO] - mysql_util.py[72]:  切換到metadata數據庫
+2024-02-19 18:11:16,349 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有3條數據，執行的sql語句是show tables;
+2024-02-19 18:11:16,349 - [INFO] - mysql_util.py[146]:  file_monitor已經存在
+2024-02-19 18:11:16,350 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有3條數據，執行的sql語句是select file_name from file_monitor
+2024-02-19 18:11:16,356 - [INFO] - backend_log_service.py[67]:  完成了向retail資料庫中的backend_log表中，插入數據，總共插入了0條的數據
+2024-02-19 18:11:16,448 - [INFO] - backend_log_service.py[67]:  完成了向retail資料庫中的backend_log表中，插入數據，總共插入了1000條的數據
+2024-02-19 18:11:16,450 - [INFO] - backend_log_service.py[70]:  插入資料庫程序已完成
+2024-02-19 18:11:16,455 - [INFO] - backend_log_service.py[67]:  完成了向retail資料庫中的backend_log表中，插入數據，總共插入了0條的數據
+2024-02-19 18:11:16,531 - [INFO] - backend_log_service.py[67]:  完成了向retail資料庫中的backend_log表中，插入數據，總共插入了1000條的數據
+2024-02-19 18:11:16,533 - [INFO] - backend_log_service.py[70]:  插入資料庫程序已完成
+2024-02-19 18:11:16,539 - [INFO] - backend_log_service.py[67]:  完成了向retail資料庫中的backend_log表中，插入數據，總共插入了0條的數據
+2024-02-19 18:11:16,619 - [INFO] - backend_log_service.py[67]:  完成了向retail資料庫中的backend_log表中，插入數據，總共插入了1000條的數據
+2024-02-19 18:11:16,620 - [INFO] - backend_log_service.py[70]:  插入資料庫程序已完成
+2024-02-19 18:11:16,625 - [INFO] - backend_log_service.py[67]:  完成了向retail資料庫中的backend_log表中，插入數據，總共插入了0條的數據
+2024-02-19 18:11:16,700 - [INFO] - backend_log_service.py[67]:  完成了向retail資料庫中的backend_log表中，插入數據，總共插入了1000條的數據
+2024-02-19 18:11:16,702 - [INFO] - backend_log_service.py[70]:  插入資料庫程序已完成
+2024-02-19 18:11:16,707 - [INFO] - backend_log_service.py[67]:  完成了向retail資料庫中的backend_log表中，插入數據，總共插入了0條的數據
+2024-02-19 18:11:16,788 - [INFO] - backend_log_service.py[67]:  完成了向retail資料庫中的backend_log表中，插入數據，總共插入了1000條的數據
+2024-02-19 18:11:16,790 - [INFO] - backend_log_service.py[70]:  插入資料庫程序已完成
+2024-02-19 18:11:16,793 - [INFO] - backend_log_service.py[76]:  以向file_monitor，寫入數據
+2024-02-19 18:16:26,393 - [INFO] - mysql_util.py[39]:  構建完成到localhost:3306的retail數據庫連接...
+2024-02-19 18:16:26,396 - [INFO] - mysql_util.py[39]:  構建完成到localhost:3306的metadata數據庫連接...
+2024-02-19 18:16:26,396 - [INFO] - mysql_util.py[72]:  切換到metadata數據庫
+2024-02-19 18:16:26,406 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有3條數據，執行的sql語句是show tables;
+2024-02-19 18:16:26,406 - [INFO] - mysql_util.py[146]:  file_monitor已經存在
+2024-02-19 18:16:26,406 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有3條數據，執行的sql語句是select file_name from file_monitor
+2024-02-19 18:19:12,522 - [INFO] - mysql_util.py[39]:  構建完成到localhost:3306的retail數據庫連接...
+2024-02-19 18:19:12,526 - [INFO] - mysql_util.py[39]:  構建完成到localhost:3306的metadata數據庫連接...
+2024-02-19 18:19:12,537 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有3條數據，執行的sql語句是show tables;
+2024-02-19 18:19:12,545 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有4條數據，執行的sql語句是show tables;
+2024-02-19 18:20:06,446 - [INFO] - mysql_util.py[39]:  構建完成到localhost:3306的retail數據庫連接...
+2024-02-19 18:20:06,449 - [INFO] - mysql_util.py[39]:  構建完成到localhost:3306的metadata數據庫連接...
+2024-02-19 18:20:06,458 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有3條數據，執行的sql語句是show tables;
+2024-02-19 18:20:06,466 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有4條數據，執行的sql語句是show tables;
+2024-02-19 18:20:06,466 - [INFO] - mysql_util.py[72]:  切換到metadata數據庫
+2024-02-19 18:20:06,469 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有3條數據，執行的sql語句是show tables;
+2024-02-19 18:20:06,469 - [INFO] - mysql_util.py[146]:  logfile_monitor已經存在
+2024-02-19 18:20:06,471 - [INFO] - mysql_util.py[62]:  執行的sql語句完成，查詢的結果有5條數據，執行的sql語句是select file_name from logfile_monitor
+2024-02-19 18:20:06,471 - [INFO] - backend_log_service.py[79]:  以向logfile_monitor，寫入數據
